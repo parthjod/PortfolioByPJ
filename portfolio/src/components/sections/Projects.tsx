@@ -56,12 +56,12 @@ function PinCard({
     <HoverPeek url={link}>
       <PinContainer title="Explore" href={link}>
       <div className="flex flex-col p-5 tracking-tight text-slate-100/50 w-[24rem] h-[28rem] bg-gradient-to-b from-slate-800/50 to-slate-800/0 backdrop-blur-sm border border-slate-700/50 rounded-2xl">
-        {/* Header */}
+
         <div className="flex items-center gap-2">
           <div className="size-3 rounded-full bg-red-500 animate-pulse" />
         </div>
 
-        {/* Content */}
+
         <div className="flex-1 mt-5 space-y-5">
           <div className="text-4xl font-bold text-slate-100 mb-10">{title}</div>
 
@@ -69,7 +69,7 @@ function PinCard({
             {details}
           </h5>
 
-          {/* Animated Waves */}
+          
           <div className="relative h-20 overflow-hidden">
             {[1, 2, 3].map((i) => (
               <div
@@ -86,7 +86,7 @@ function PinCard({
             ))}
           </div>
 
-          {/* Footer */}
+          
           <div className="flex justify-between items-end mb-10">
             <div className="text-xs text-slate-400 ">Updated: {update}</div>
             <HoverPeek url={link}>

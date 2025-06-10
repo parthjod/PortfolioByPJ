@@ -247,7 +247,7 @@ const DigitalSerenity3 = () => {
         <circle cx="50%" cy="50%" r="1.5" className="detail-dot" style={{ animationDelay: '4s' }} />
       </svg>
 
-      {/* Corner Elements */}
+
       <div className="corner-element-animate top-4 left-4 sm:top-6 sm:left-6 md:top-8 md:left-8" style={{ animationDelay: '4s' }}>
         <div className="absolute top-0 left-0 w-2 h-2 bg-indigo-500 opacity-50 rounded-full shadow-lg shadow-indigo-500/30"></div>
       </div>
@@ -261,13 +261,13 @@ const DigitalSerenity3 = () => {
         <div className="absolute bottom-0 right-0 w-2 h-2 bg-indigo-600 opacity-50 rounded-full shadow-lg shadow-indigo-600/30"></div>
       </div>
 
-      {/* Floating Elements */}
+      
       <div className="floating-element-animate" style={{ top: '25%', left: '15%' }}></div>
       <div className="floating-element-animate" style={{ top: '60%', left: '85%' }}></div>
       <div className="floating-element-animate" style={{ top: '40%', left: '10%' }}></div>
       <div className="floating-element-animate" style={{ top: '75%', left: '90%' }}></div>
 
-      {/* Main Content */}
+      
       <div className="relative z-10 min-h-screen flex flex-col justify-between items-center px-6 py-10 sm:px-8 sm:py-12 md:px-16 md:py-20">
         <div className="text-center">
           <div className="mt-4 w-12 sm:w-16 h-px bg-gradient-to-r from-transparent via-indigo-400 to-transparent opacity-50 mx-auto"></div>
@@ -296,7 +296,7 @@ const DigitalSerenity3 = () => {
         </div>
       </div>
 
-      {/* Mouse Gradient */}
+      
       <div 
         className="mouse-gradient w-60 h-60 blur-xl sm:w-80 sm:h-80 sm:blur-2xl md:w-96 md:h-96 md:blur-3xl"
         style={{
@@ -306,7 +306,7 @@ const DigitalSerenity3 = () => {
         }}
       ></div>
 
-      {/* Ripples */}
+
       {ripples.map(ripple => (
         <div
           key={ripple.id}
