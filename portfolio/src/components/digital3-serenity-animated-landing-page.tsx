@@ -10,7 +10,6 @@ const DigitalSerenity3 = () => {
   type Ripple = { id: number; x: number; y: number };
   const [ripples, setRipples] = useState<Ripple[]>([]);
   const [scrolled, setScrolled] = useState(false);
-  const wordsRef = useRef([]);
   const floatingElementsRef = useRef<Element[]>([]);
 
   useEffect(() => {
